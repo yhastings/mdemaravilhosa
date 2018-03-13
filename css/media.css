@@ -1,0 +1,133 @@
+@media (min-width: 700px) {
+    header {
+        min-height: 37vh;
+        justify-content: flex-end;
+        align-items: end;
+    }
+
+    header div {
+        align-items: flex-start;
+        margin-left: 124px;
+    }
+
+    h1 {
+        font-size: 26px;
+        text-align: left;
+    }
+
+    header a {
+        margin-bottom: 20px;
+    }
+
+    header p {
+        text-align: left;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: initial;
+        align-items: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    nav a {
+        text-shadow: 1px 2px #7a7a7a;
+    }
+
+    .intro {
+        min-height: 32vh;
+    }
+
+    .intro img {
+        width: 45%;
+    }
+
+    .perfis {
+        min-height: 63vh;
+    }
+
+    .fotos-mulheres {
+        grid-template-columns: 16% 16% 16%;
+    }
+
+    .fotos-mulheres2 {
+        margin: 3% 0;
+        display: grid;
+        grid-template-columns: 16% 16% 16%;
+        grid-gap: 58px;
+        justify-content: center;
+
+    }
+
+    .containeravatares {
+        grid-template-columns: 13% 13% 13% 13% 13%;
+    }
+
+    .containeravatares2 {
+            margin: 0 0 3% 0;
+            display: grid;
+            grid-template-columns: 13% 13% 13% 13% 13%;
+            grid-gap: 24px 12px;
+            justify-content: center;
+        }
+
+    .avatar2 {
+        display: initial;
+        width: 87%;
+        height: 95px;
+        object-fit: cover;
+        border-radius: 4px;
+        margin-bottom: 1px;
+        margin-left: 10px;
+    }
+
+    .footer-maior {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: initial;
+    }
+
+    .footer-maior ul {
+        min-width: 200px;
+    }
+
+    .logofooter {
+        width: 72%;
+    }
+
+    .creditos {
+        width: 23%;
+    }
+}
+
+@media (min-width: 970px) {
+    header {
+        min-height: 66vh;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    header a {
+        margin-bottom: 47px;
+    }
+
+    .intro {
+        min-height: 72vh;
+    }
+
+    .link-mulheres img {
+        height: 150px;
+    }
+
+    .avatar, .avatar2 {
+        height: 120px;
+    }
+}

@@ -24,7 +24,7 @@ nav ul {
 }
 
 .logo {
-    width: 25%;
+    width: 33%;
     margin-left: 3%;
 }
 /* #endregion */
@@ -117,6 +117,10 @@ header a {
 
 /* #region Perfis */
 
+.fotos-mulheres2 {
+    display: none;
+}
+
 .perfis {
     background: #f2f1f0;
     min-height: 100vh;
@@ -196,7 +200,97 @@ h2 {
     width: 87%;
     height: 95px;
     object-fit: cover;
-    border-radius: 4px;
     margin-bottom: 1px;
     margin-left: 10px;
 }
+
+.avatar2 {
+    display: none;
+}
+
+.containeravatares2 {
+    display: none;
+}
+
+/* #endregion */
+
+/* #region footer */
+
+.footer-maior {
+    background: rgb(102, 102, 102);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 21px 0;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 5px;
+
+}
+
+.logofooter {
+    width: 58%;
+}
+
+.facebook {
+    width: 6%;
+}
+
+.creditos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 84%;
+    text-align: center;
+    color: white;
+}
+
+.creditos p {
+    font-style: italic;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.social a {
+    font-family: Montserrat;
+    color: white;
+    text-decoration: none;
+    letter-spacing: 0px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.direitos {
+    background: rgb(51, 51, 51);
+    color: white;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 10px;
+    padding: 8px 0 8px 0;
+    text-align: center;
+}
+
+/* #endregion */
