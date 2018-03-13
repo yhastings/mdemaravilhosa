@@ -45,10 +45,29 @@ header {
     color: white;
 }
 
+.header-sobre {
+    background: url(../img/bg-banner-escuro.png);
+    min-height: 28vh;
+    background-size: 666px;
+    background-position: 44% center;
+    width: 100%;
+    font-family: 'Montserrat', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+h3 {
+    margin-left: 35px;
+    font-size: 47px;
+}
+
 h1 {
     font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     text-align: center;
-    text-shadow: 2px 2px #b288c0;
+    text-shadow: 2px 1px gray;
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -293,4 +312,84 @@ ul li a {
     text-align: center;
 }
 
+/* #endregion */
+
+/* #region sobre */
+
+.texto-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.texto-historia img {
+    width: 100%;
+    padding-bottom: 33px;
+}
+
+.h2-sobre {
+    color: #7e5a9b;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 19px;
+    font-family: 'Roboto Slab', 'Times New Roman', Times, serif;
+
+}
+
+.texto-historia > div {
+    width: 83%;
+}
+
+.dados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dados > div {
+    width: 83%;
+    text-align: center;
+}
+
+.paragrafo{
+    font-family: 'Roboto';
+    color: #63458a;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.paragrafo p {
+    padding-bottom: 5px;
+}
+
+.dados > div {
+    font-family: 'Roboto';
+    color: #63458a;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 500;
+    width: 68%;
+    padding-bottom: 10px;
+}
+
+span {
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.equipecontainer img {
+    width: 25%;
+}
+
+.mae {
+    position: relative;
+}
+
+.filha {
+    position: relative;
+    bottom: 0;
+}
 /* #endregion */
