@@ -108,6 +108,12 @@
     .creditos {
         width: 23%;
     }
+
+    .header-sobre {
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center 44%;
+    }
 }
 
 @media (min-width: 970px) {
@@ -115,8 +121,19 @@
         min-height: 66vh;
     }
 
+    .header-sobre {
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center 44%;
+    }
+
     h1 {
         font-size: 32px;
+    }
+    
+    h3 {
+        font-size: 60px;
+        margin-left: 212px;
     }
 
     header a {
@@ -133,5 +150,37 @@
 
     .avatar, .avatar2 {
         height: 120px;
+    }
+
+    .h2-sobre {
+        font-size: 24px;
+    }
+
+    .paragrafo p {
+        font-size: 15px;
+    }
+
+    .dados > div {
+        display: flex;
+        width: 25%;
+        align-items: center;
+    }
+
+    .banco-de-mulheres img {
+        width: 100%;
+    }
+
+    .banco-de-mulheres p {
+        font-size: 13px;
+    }
+
+    .item {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+    }
+
+    .item a {
+        max-width: 50%;
     }
 }
