@@ -114,6 +114,10 @@
         background-size: cover;
         background-position: center 44%;
     }
+
+    .equipecontainer {
+        width: 57%;
+    }
 }
 
 @media (min-width: 970px) {
@@ -182,5 +186,49 @@
 
     .item a {
         max-width: 50%;
+    }
+
+    .equipecontainer {
+        width: 57%;
+    }
+
+    /* página de personalidade */
+
+    .card-bio {
+        flex-direction: row;
+        width: 59%;
+    }
+
+    .bio img {
+        width: 21%;
+        margin-right: 10px;
+    }
+
+    .paragrafo {
+        width: 92%;
+    }
+
+    .paragrafo p {
+        font-size: 18px;
+    }
+
+    .historia-parte1 {
+        display: flex;
+        flex-direction: column;
+        width: 59%;
+        align-items: center;
+    }
+
+    .previa {
+        padding: 20px;
+    }
+
+    .header-personalidade {
+        min-height: 63vh;
+        background-size: cover;
+    }
+
+    .h3-personalidade {
+        font-size: 73px;
     }
 }

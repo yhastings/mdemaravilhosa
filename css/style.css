@@ -317,14 +317,26 @@ ul li a {
 
 /* #region sobre */
 
+.historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .texto-historia {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 20px;
+    width: 90%;
 }
 
-.texto-historia img {
+.texto-historia > img {
+    width: 111%;
+    margin: 15px 0;
+}
+
+.historia > img {
     width: 100%;
     padding-bottom: 33px;
 }
@@ -339,7 +351,7 @@ ul li a {
 }
 
 .texto-historia > div {
-    width: 83%;
+    width: 100%;
 }
 
 .dados {
@@ -383,15 +395,21 @@ span {
 
 .programadoras {
     background: linear-gradient(to right, #7e5a9b, #b288c0);
+    padding-bottom: 20px;
 }
 
 .equipecontainer {
     display: flex;
     flex-wrap: wrap;
+    width: 101%;
+    margin: 0 auto;
+    justify-content: center;
 }
 
 .mae {
     position: relative;
+    max-width: 111px;
+    margin: 0 5px;
 }
 
 .mae > div {
@@ -400,18 +418,18 @@ span {
 }
 
 .mae img {
-    max-width: 100%;
+    max-width: 95%;
 }
 
 .filha {
     position: absolute;
     bottom: 5px;
-    left: 2px;
     font-family: Montserrat;
     font-size: 12px;
     font-weight: bold;
     color: #63458a;
     text-align: center;
+    width: 100%;
 }
 /* #endregion */
 
@@ -448,3 +466,126 @@ span {
 }
 /* #endregion */
 
+/* #region personalidade */
+
+.header-personalidade{
+    background: url(../img/bg-banner-escuro.png);
+    min-height: 40vh;
+    background-size: 784px;
+    background-position: 56% 71%;
+    width: 100%;
+    font-family: 'Montserrat', cursive;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    }
+
+    .h3-personalidade {
+        text-align: center;
+        font-size: 35px;
+        margin-left: 0;
+    }
+
+    .bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-bio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bio > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .bio img {
+        width: 50%;
+    }
+
+    .citacao {
+        border: 2px;
+        border-color: #b288c0;
+        border-style: solid;
+        margin-top: 15px;
+    }
+
+    h4 {
+        padding: 30px;
+        color: #63458a;
+        font-family: 'Montserrat', 'Times New Roman', Times, serif;
+    }
+
+    .foto-personalidade {
+        margin-bottom: 15px;
+    }
+
+    .h2-personalidade {
+        text-align: left;
+    }
+
+    .autoria {
+        background-color: #e4b7e5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .avatar-autoria {
+        max-width: 125px;
+        margin-right: 10px;
+    }
+
+    .avatar-autoria img {
+        max-width: 100%;
+    }
+
+    .recomendados {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .card img {
+        width: 100%;
+    }
+
+    .previa {
+        background-color: #e4b7e5;
+        color: white;
+        font-family: 'Montserrat', 'Times New Roman', Times, serif;
+        margin-bottom: 20px;
+        padding-top: 5px;
+    }
+
+    .previa span {
+        color: white;
+        font-size: 12px;
+    }
+
+    .previa p {
+        font-size: 12px;
+    }
+
+    .previa a {
+        text-decoration: none;
+        color: #63458a;
+        font-weight: bold;
+        font-size: 12px;
+    }
+
+    .historia-parte1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+}
